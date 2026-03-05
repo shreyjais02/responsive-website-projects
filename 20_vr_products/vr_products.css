@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.product-bg1 {
+    background-image: url("https://d2clawv67efefq.cloudfront.net/ccbp-responsive-website/vr-products-headset-img.png");
+    height: 100vh;
+    background-size: cover;
+    padding: 20px;
+}
+
+.product-bg2 {
+    background-image: url("https://d2clawv67efefq.cloudfront.net/ccbp-responsive-website/vr-products-headset-with-controllers-img.png");
+    height: 100vh;
+    background-size: cover;
+    padding: 20px;
+}
+
+.product-heading {
+    font-weight: 400;
+    font-size: 40px;
+    color: white;
+}
+
+.product-p {
+    color: white;
+    font-size: 25px;
+}
+
+.product-button {
+    background-color: transparent;
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+    color: white;
+    border-radius: 5px;
+    height: 40px;
+    width: 100px;
+}
