@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.div-container {
+    border-radius: 15px;
+    background-image: linear-gradient(to right, #e8dbfc, #f8f9d2);
+    background-size: cover;
+    border-color: #cccccc;
+    border-style: solid;
+    border-width: 1px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.sq-bg {
+    height: 150px;
+    width: 150px;
+    background-color: #4b35ab;
+    margin-left: 30px;
+}
+
+.sq-bg:hover {
+    height: 300px;
+    width: 300px;
+    transition-duration: 1s;
+    transition-property: width, height;
+}
+
+.button {
+    background-color: #b5136e;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #27ae60;
+    color: white;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.button:hover {
+    background-color: #e74c3c;
+    border-color: #c0392b;
+    transition-duration: 1s;
+    transition-property: background-color, border-color;
+}
+
+.lauda {
+    transition: all;
+}
+
+.sq-bg-2 {
+    background-color: #e65a56;
+    margin-left: 30px;
+    height: 150px;
+    width: 150px;
+    border-radius: 0;
+}
+
+.sq-bg-2:hover {
+    border-radius: 50px;
+    transition-duration: 1s;
+    transition-property: border-radius;
+}
