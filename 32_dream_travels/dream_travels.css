@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+.bg-container {
+    background-image: url("https://s3.ap-south-1.amazonaws.com/new-assets.ccbp.in/frontend/loading-data/niat_responsive/niat_coding_questions/cp_10_b_new_v2_bg_1.jpg");
+    height: 100vh;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+.nav-image {
+    height: 64px;
+    width: 64px;
+}
+.nav-pad {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#navbg {
+    color: white;
+}
+.advantages {
+    background-color: #dee7e0;
+    height: 100vh;
+    padding: 20px;
+}
+.icons {
+    height: 80px;
+    width: 80px;
+}
+.cards {
+    text-align: center;
+    margin: 20px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.adv-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+.destination-card {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #1f603126;
+}
+.destination-card:hover {
+    transform: skew(-10deg);
+}
+.destination-image {
+    width: 100%;
+    border-radius: 10px;
+}
+.ft1 {
+    background-image: radial-gradient(#dee7e0, #2e4e1f);
+    padding: 20px;
+}
+.ft1-img {
+    height: 150px;
+    width: 150px;
+    border-radius: 20px;
+}
+.ft1-img {
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+    animation: infinite alternate;
+}
+.footer {
+    background-color: #2e4e1f;
+    color: white;
+}
+.main-content {
+    transform: rotate(360deg);
+    animation: transform;
+}
+.cards:hover {
+    transform: rotate(-10deg);
+    background-color: #9dc78a;
+}
+.button1 {
+    background-color: #2e4e1f;
+}
+.button2 {
+    background-color: transparent;
+    color: #0a4d1c;
+}
